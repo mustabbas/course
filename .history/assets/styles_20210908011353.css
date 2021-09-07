@@ -196,14 +196,6 @@ hr {
      .course-row {
          display: none;
      }
-
-     .footer-light {
-         display: none;
-     }
-
-     .footer-black {
-         display: none;
-     }
  }
 
  @media (min-width: 768px) {

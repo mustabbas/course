@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,800&display=swap');
-@font-face {
-    font-family: "roboto";
-    src: url('fonts/Cocogoose\ Pro\ Semilight-trial.ttf');
-  }
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Kaisei+HarunoUmi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
 
 body {
     background: #fff;
@@ -23,40 +21,17 @@ hr {
     background-size: cover;
 }
 
-.bg-black {
-    border: 1px solid;
-    background-color: #272a31;
-    height: 40px;
-}
-
-.upper-nav {
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-.upper-nav li {
-    color: #fff;
-    padding: 10px;
-    list-style: none;
-    font-size: 12px;
-}
-
-.upper-nav img {
-    width: 30px;
-    height: 20px;
-  }
-
 /* navbar */
 .navbar-brand {
     font-size: 22px;
     line-height: 30px;
-    font-family: 'Cocogoose', serif;
+    font-family: 'Hina Mincho', serif;
 }
 
 .text-18 {
     font-size: 18px;
     line-height: 30px;
-    font-family: 'Cocogoose', serif;
+    font-family: 'Hina Mincho', serif;
 }
 
 /* header */
@@ -65,19 +40,18 @@ hr {
     padding: 15px;
 }
 .header h1 {
-    text-transform: uppercase;
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 45px;
+    line-height: 50px;
     color: #ec5242;
     font-weight: bold;
-    font-family: 'Lato', serif;
+    font-family: 'Kaisei HarunoUmi', serif;
 }
 
 .header p {
     font-size: 24px;
     line-height: 30px;
     padding: 10px;
-    font-family: 'Cocogoose', serif;
+    font-family: 'Hina Mincho', serif;
     font-weight: bold;
 }
 
@@ -101,8 +75,8 @@ hr {
     padding: 10px;
     font-size: 24px;
     line-height: 30px;
-    color: #d3d3d3;
-    font-family: 'Cocogoose', serif;
+    color: #fff;
+    font-family: 'Hina Mincho', serif;
  }
 
  .main-topic-item {
@@ -128,8 +102,8 @@ hr {
  .text {
     font-size: 10px;
     padding: 0 5px;
-    color: #d3d3d3;
-    font-family: 'Cocogoose', serif;
+    color: #fff;
+    font-family: 'Hina Mincho', serif;
  }
 
   /* courses */
@@ -159,7 +133,7 @@ hr {
 
  .course-item-body {
     font-size: 16px;
-    font-family: 'Cocogoose', serif;
+    font-family: 'Hina Mincho', serif;
  }
 
  .title-course {
@@ -173,16 +147,9 @@ hr {
      width: 90%;  
  }
  @media (max-width: 768px) {
-   .bg-black {
-       display: none;
-   }
-
-   .navbar-brand {
-       display: none;
-   }
    
     .join-button {
-        color: #d3d3d3;
+        color: #fff;
         background-color: #ec5242;
         font-family: 'Kaisei HarunoUm', serif;
         padding: 25px;
@@ -196,14 +163,6 @@ hr {
      .course-row {
          display: none;
      }
-
-     .footer-light {
-         display: none;
-     }
-
-     .footer-black {
-         display: none;
-     }
  }
 
  @media (min-width: 768px) {
@@ -213,24 +172,15 @@ hr {
     }
 
     .navbar-collapse {
-        margin-left: 200px;
+        margin-left: 100px;
     }
 
     .nav-btn {
         margin-right: 100px;
     }
 
-    .nav-item {
-        padding:0 30px;
-    }
-
     .header {
         margin-top: 100px;
-    }
-
-    .header h1 {
-        font-size: 80px;
-        line-height: 90px;
     }
 
     .item-wraper {
@@ -248,60 +198,12 @@ hr {
     }
 
     .join-button {
-        color:#d3d3d3;
+        color: #fff;
         margin: 50px;
         font-family: 'Kaisei HarunoUm', serif;
      }
 
-     .more-btn {
-         display: none;
+     .course-row {
+         padding: 30px;
      }
-
-     .footer-black {
-        background-color:  #272a31;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-     }
-
-     .footer-black h3 {
-        margin-top: 20px;
-        padding: 10px;
-        font-size: 24px;
-        line-height: 30px;
-        color: #d3d3d3;
-        font-family: 'Cocogoose', serif;
-     }
-
-     .footer-black ul {
-        width: 100%;
-         display: flex;
-         justify-content:space-around;
-     }
-
-     .footer-black li {
-        color: #d3d3d3;
-        font-family: 'Cocogoose', serif;
-        list-style: none;
-        font-size: 24px;
-        text-transform: uppercase;
-        padding: 20px;
-     }
-
-     .footer-light {
-        background: #fff;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 200px;
-        margin: 0 200px;
-        
-     }
-
-     .footer-light p {
-         text-align: center;
-     }
-
-     
-
  }

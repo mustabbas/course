@@ -196,14 +196,6 @@ hr {
      .course-row {
          display: none;
      }
-
-     .footer-light {
-         display: none;
-     }
-
-     .footer-black {
-         display: none;
-     }
  }
 
  @media (min-width: 768px) {
@@ -292,14 +284,8 @@ hr {
         background: #fff;
         display: flex;
         justify-content: space-around;
-        align-items: center;
         height: 200px;
-        margin: 0 200px;
-        
-     }
-
-     .footer-light p {
-         text-align: center;
+      
      }
 
      

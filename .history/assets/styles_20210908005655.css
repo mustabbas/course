@@ -196,14 +196,6 @@ hr {
      .course-row {
          display: none;
      }
-
-     .footer-light {
-         display: none;
-     }
-
-     .footer-black {
-         display: none;
-     }
  }
 
  @media (min-width: 768px) {
@@ -248,7 +240,7 @@ hr {
     }
 
     .join-button {
-        color:#d3d3d3;
+        color: #fff;
         margin: 50px;
         font-family: 'Kaisei HarunoUm', serif;
      }
@@ -274,32 +266,13 @@ hr {
      }
 
      .footer-black ul {
-        width: 100%;
          display: flex;
-         justify-content:space-around;
+
      }
 
      .footer-black li {
         color: #d3d3d3;
         font-family: 'Cocogoose', serif;
-        list-style: none;
-        font-size: 24px;
-        text-transform: uppercase;
-        padding: 20px;
-     }
-
-     .footer-light {
-        background: #fff;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 200px;
-        margin: 0 200px;
-        
-     }
-
-     .footer-light p {
-         text-align: center;
      }
 
      
